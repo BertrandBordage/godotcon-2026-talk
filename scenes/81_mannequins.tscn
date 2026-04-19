@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://dw5x355ddaccy"]
+
+[ext_resource type="PackedScene" uid="uid://4eij0cxfkg25" path="res://scenes/9_mannequins.tscn" id="1_81hsp"]
+
+[node name="81Mannequins" type="Node3D" unique_id=588549458]
+
+[node name="9Mannequins" parent="." unique_id=1114587590 instance=ExtResource("1_81hsp")]
+
+[node name="9Mannequins2" parent="." unique_id=1686360634 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 0)
+
+[node name="9Mannequins3" parent="." unique_id=1120708960 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, 6)
+
+[node name="9Mannequins4" parent="." unique_id=708137473 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6)
+
+[node name="9Mannequins5" parent="." unique_id=624686235 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 6)
+
+[node name="9Mannequins6" parent="." unique_id=370689408 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 0)
+
+[node name="9Mannequins7" parent="." unique_id=1674834931 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -6)
+
+[node name="9Mannequins8" parent="." unique_id=114770199 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+
+[node name="9Mannequins9" parent="." unique_id=397003748 instance=ExtResource("1_81hsp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 0, -6)
