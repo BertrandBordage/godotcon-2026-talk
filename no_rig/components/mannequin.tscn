@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://7lqgum6uq26e"]
 
-[ext_resource type="Script" uid="uid://dxwyvfisk28nj" path="res://components/no_rig/mannequin.gd" id="1_akugt"]
-[ext_resource type="Texture2D" uid="uid://y3mobrage083" path="res://assets/blocky_mannequin.png" id="2_qhx3f"]
+[ext_resource type="Script" uid="uid://bgp57flvp0fg7" path="res://random_animation.gd" id="1_jv7v8"]
+[ext_resource type="Texture2D" uid="uid://y3mobrage083" path="res://no_rig/assets/blocky_mannequin.png" id="2_qhx3f"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6hrn1"]
 resource_name = "texture-d"
@@ -506,67 +506,6 @@ tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1, 0.016666668, 1, 0.06782182, 0, 0, 0.9976975, 0.033333335, 1, 0.19271226, 0, 0, 0.9812553, 0.05, 1, 0.25881907, 0, 0, 0.9659258, 0.06666667, 1, 0.25629607, 0, 0, 0.96659833, 0.083333336, 1, 0.24912962, 0, 0, 0.96847016, 0.1, 1, 0.2379145, 0, 0, 0.9712861, 0.11666667, 1, 0.22324078, 0, 0, 0.97476333, 0.13333334, 1, 0.20570116, 0, 0, 0.97861487, 0.15, 1, 0.18589664, 0, 0, 0.98256934, 0.16666667, 1, 0.16443965, 0, 0, 0.98638713, 0.18333334, 1, 0.1419552, 0, 0, 0.9898731, 0.2, 1, 0.1190798, 0, 0, 0.9928847, 0.21666667, 1, 0.09645926, 0, 0, 0.99533695, 0.23333333, 1, 0.07474529, 0, 0, 0.99720263, 0.25, 1, 0.054592103, 0, 0, 0.99850875, 0.26666668, 1, 0.03665328, 0, 0, 0.999328, 0.28333333, 1, 0.02157959, 0, 0, 0.9997671, 0.3, 1, 0.010017795, 0, 0, 0.9999498, 0.31666666, 1, 0.0026110616, 0, 0, 0.9999966, 0.33333334, 1, 0, 0, 0, 1, 0.35, 1, 0, 0, 0, 1)
 
-[sub_resource type="Animation" id="Animation_kk6mt"]
-resource_name = "drive"
-length = 0.16666667
-loop_mode = 1
-tracks/0/type = "position_3d"
-tracks/0/imported = true
-tracks/0/enabled = true
-tracks/0/path = NodePath("character-d/root")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat32Array(0, 1, 0, -0.2, 0)
-tracks/1/type = "rotation_3d"
-tracks/1/imported = true
-tracks/1/enabled = true
-tracks/1/path = NodePath("character-d/root")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/2/type = "rotation_3d"
-tracks/2/imported = true
-tracks/2/enabled = true
-tracks/2/path = NodePath("character-d/root/leg-left")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat32Array(0, 1, 0.70710677, 0, 0, -0.70710677)
-tracks/3/type = "rotation_3d"
-tracks/3/imported = true
-tracks/3/enabled = true
-tracks/3/path = NodePath("character-d/root/leg-right")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = PackedFloat32Array(0, 1, 0.70710677, 0, 0, -0.70710677)
-tracks/4/type = "rotation_3d"
-tracks/4/imported = true
-tracks/4/enabled = true
-tracks/4/path = NodePath("character-d/root/torso/arm-left")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = PackedFloat32Array(0, 1, 0.6087614, 0, 0, -0.7933533)
-tracks/5/type = "rotation_3d"
-tracks/5/imported = true
-tracks/5/enabled = true
-tracks/5/path = NodePath("character-d/root/torso/arm-right")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = PackedFloat32Array(0, 1, 0.6087614, 0, 0, -0.7933533)
-tracks/6/type = "rotation_3d"
-tracks/6/imported = true
-tracks/6/enabled = true
-tracks/6/path = NodePath("character-d/root/torso")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/7/type = "rotation_3d"
-tracks/7/imported = true
-tracks/7/enabled = true
-tracks/7/path = NodePath("character-d/root/torso/head")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-
 [sub_resource type="Animation" id="Animation_6hvow"]
 resource_name = "emote-no"
 length = 0.6666667
@@ -689,67 +628,6 @@ tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
 
-[sub_resource type="Animation" id="Animation_0nwed"]
-resource_name = "holding-both"
-length = 0.16666667
-loop_mode = 1
-tracks/0/type = "rotation_3d"
-tracks/0/imported = true
-tracks/0/enabled = true
-tracks/0/path = NodePath("character-d/root/torso/arm-left")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat32Array(0, 1, 0.70710677, 0, 0, -0.70710677)
-tracks/1/type = "rotation_3d"
-tracks/1/imported = true
-tracks/1/enabled = true
-tracks/1/path = NodePath("character-d/root/torso/arm-right")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat32Array(0, 1, 0.70710677, 0, 0, -0.70710677)
-tracks/2/type = "position_3d"
-tracks/2/imported = true
-tracks/2/enabled = true
-tracks/2/path = NodePath("character-d/root")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat32Array(0, 1, 0, 0, 0)
-tracks/3/type = "rotation_3d"
-tracks/3/imported = true
-tracks/3/enabled = true
-tracks/3/path = NodePath("character-d/root")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/4/type = "rotation_3d"
-tracks/4/imported = true
-tracks/4/enabled = true
-tracks/4/path = NodePath("character-d/root/leg-left")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/5/type = "rotation_3d"
-tracks/5/imported = true
-tracks/5/enabled = true
-tracks/5/path = NodePath("character-d/root/leg-right")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/6/type = "rotation_3d"
-tracks/6/imported = true
-tracks/6/enabled = true
-tracks/6/path = NodePath("character-d/root/torso")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/7/type = "rotation_3d"
-tracks/7/imported = true
-tracks/7/enabled = true
-tracks/7/path = NodePath("character-d/root/torso/head")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-
 [sub_resource type="Animation" id="Animation_ua132"]
 resource_name = "holding-both-shoot"
 length = 0.2
@@ -811,67 +689,6 @@ tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
 
-[sub_resource type="Animation" id="Animation_o70di"]
-resource_name = "holding-left"
-length = 0.16666667
-loop_mode = 1
-tracks/0/type = "rotation_3d"
-tracks/0/imported = true
-tracks/0/enabled = true
-tracks/0/path = NodePath("character-d/root/torso/arm-left")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat32Array(0, 1, 0.70710677, 0, 0, -0.70710677)
-tracks/1/type = "position_3d"
-tracks/1/imported = true
-tracks/1/enabled = true
-tracks/1/path = NodePath("character-d/root")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat32Array(0, 1, 0, 0, 0)
-tracks/2/type = "rotation_3d"
-tracks/2/imported = true
-tracks/2/enabled = true
-tracks/2/path = NodePath("character-d/root")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/3/type = "rotation_3d"
-tracks/3/imported = true
-tracks/3/enabled = true
-tracks/3/path = NodePath("character-d/root/leg-left")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/4/type = "rotation_3d"
-tracks/4/imported = true
-tracks/4/enabled = true
-tracks/4/path = NodePath("character-d/root/leg-right")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/5/type = "rotation_3d"
-tracks/5/imported = true
-tracks/5/enabled = true
-tracks/5/path = NodePath("character-d/root/torso")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/6/type = "rotation_3d"
-tracks/6/imported = true
-tracks/6/enabled = true
-tracks/6/path = NodePath("character-d/root/torso/arm-right")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/7/type = "rotation_3d"
-tracks/7/imported = true
-tracks/7/enabled = true
-tracks/7/path = NodePath("character-d/root/torso/head")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-
 [sub_resource type="Animation" id="Animation_swk7c"]
 resource_name = "holding-left-shoot"
 length = 0.2
@@ -929,67 +746,6 @@ tracks/7/type = "rotation_3d"
 tracks/7/imported = true
 tracks/7/enabled = true
 tracks/7/path = NodePath("character-d/root/torso/arm-right")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-
-[sub_resource type="Animation" id="Animation_jutpd"]
-resource_name = "holding-right"
-length = 0.16666667
-loop_mode = 1
-tracks/0/type = "rotation_3d"
-tracks/0/imported = true
-tracks/0/enabled = true
-tracks/0/path = NodePath("character-d/root/torso/arm-right")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat32Array(0, 1, 0.70710677, 0, 0, -0.70710677)
-tracks/1/type = "position_3d"
-tracks/1/imported = true
-tracks/1/enabled = true
-tracks/1/path = NodePath("character-d/root")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat32Array(0, 1, 0, 0, 0)
-tracks/2/type = "rotation_3d"
-tracks/2/imported = true
-tracks/2/enabled = true
-tracks/2/path = NodePath("character-d/root")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/3/type = "rotation_3d"
-tracks/3/imported = true
-tracks/3/enabled = true
-tracks/3/path = NodePath("character-d/root/leg-left")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/4/type = "rotation_3d"
-tracks/4/imported = true
-tracks/4/enabled = true
-tracks/4/path = NodePath("character-d/root/leg-right")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/5/type = "rotation_3d"
-tracks/5/imported = true
-tracks/5/enabled = true
-tracks/5/path = NodePath("character-d/root/torso")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/6/type = "rotation_3d"
-tracks/6/imported = true
-tracks/6/enabled = true
-tracks/6/path = NodePath("character-d/root/torso/arm-left")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/7/type = "rotation_3d"
-tracks/7/imported = true
-tracks/7/enabled = true
-tracks/7/path = NodePath("character-d/root/torso/head")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
@@ -1665,67 +1421,6 @@ tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
 
-[sub_resource type="Animation" id="Animation_s3ypb"]
-resource_name = "wheelchair-sit"
-length = 0.16666667
-loop_mode = 1
-tracks/0/type = "rotation_3d"
-tracks/0/imported = true
-tracks/0/enabled = true
-tracks/0/path = NodePath("character-d/root/leg-left")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = PackedFloat32Array(0, 1, 0.6087614, 0, 0, -0.7933533)
-tracks/1/type = "rotation_3d"
-tracks/1/imported = true
-tracks/1/enabled = true
-tracks/1/path = NodePath("character-d/root/leg-right")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = PackedFloat32Array(0, 1, 0.6087614, 0, 0, -0.7933533)
-tracks/2/type = "rotation_3d"
-tracks/2/imported = true
-tracks/2/enabled = true
-tracks/2/path = NodePath("character-d/root/torso/arm-left")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = PackedFloat32Array(0, 1, 0.25881904, 0, 0, -0.9659258)
-tracks/3/type = "rotation_3d"
-tracks/3/imported = true
-tracks/3/enabled = true
-tracks/3/path = NodePath("character-d/root/torso/arm-right")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = PackedFloat32Array(0, 1, 0.25881904, 0, 0, -0.9659258)
-tracks/4/type = "position_3d"
-tracks/4/imported = true
-tracks/4/enabled = true
-tracks/4/path = NodePath("character-d/root")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = PackedFloat32Array(0, 1, 0, 0, 0)
-tracks/5/type = "rotation_3d"
-tracks/5/imported = true
-tracks/5/enabled = true
-tracks/5/path = NodePath("character-d/root")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/6/type = "rotation_3d"
-tracks/6/imported = true
-tracks/6/enabled = true
-tracks/6/path = NodePath("character-d/root/torso")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-tracks/7/type = "rotation_3d"
-tracks/7/imported = true
-tracks/7/enabled = true
-tracks/7/path = NodePath("character-d/root/torso/head")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/keys = PackedFloat32Array(0, 1, 0, 0, 0, 1)
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ojpig"]
 _data = {
 &"attack-kick-left": SubResource("Animation_nvaiu"),
@@ -1733,14 +1428,10 @@ _data = {
 &"attack-melee-left": SubResource("Animation_8s1cx"),
 &"attack-melee-right": SubResource("Animation_jr6iv"),
 &"die": SubResource("Animation_d3fh2"),
-&"drive": SubResource("Animation_kk6mt"),
 &"emote-no": SubResource("Animation_6hvow"),
 &"emote-yes": SubResource("Animation_x2fja"),
-&"holding-both": SubResource("Animation_0nwed"),
 &"holding-both-shoot": SubResource("Animation_ua132"),
-&"holding-left": SubResource("Animation_o70di"),
 &"holding-left-shoot": SubResource("Animation_swk7c"),
-&"holding-right": SubResource("Animation_jutpd"),
 &"holding-right-shoot": SubResource("Animation_4pj07"),
 &"idle": SubResource("Animation_s33xe"),
 &"interact-left": SubResource("Animation_adqer"),
@@ -1751,12 +1442,11 @@ _data = {
 &"wheelchair-move-back": SubResource("Animation_35g08"),
 &"wheelchair-move-forward": SubResource("Animation_biken"),
 &"wheelchair-move-left": SubResource("Animation_bsfxi"),
-&"wheelchair-move-right": SubResource("Animation_w3yka"),
-&"wheelchair-sit": SubResource("Animation_s3ypb")
+&"wheelchair-move-right": SubResource("Animation_w3yka")
 }
 
 [node name="Mannequin" type="Node3D" unique_id=1116613002]
-script = ExtResource("1_akugt")
+script = ExtResource("1_jv7v8")
 
 [node name="character-d" type="Node3D" parent="." unique_id=460550095]
 
@@ -1775,7 +1465,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, 0)
 mesh = SubResource("ArrayMesh_bvli5")
 
 [node name="arm-left" type="MeshInstance3D" parent="character-d/root/torso" unique_id=94975544]
-transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0.39999998, 1.1, -0.099999994)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.39999998, 1.1, -0.099999994)
 mesh = SubResource("ArrayMesh_jx77f")
 
 [node name="arm-right" type="MeshInstance3D" parent="character-d/root/torso" unique_id=602816617]

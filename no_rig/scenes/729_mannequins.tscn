@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://dkv2eiequ7iin"]
 
-[ext_resource type="PackedScene" uid="uid://dw5x355ddaccy" path="res://scenes/no_rig/81_mannequins.tscn" id="1_m5lyo"]
+[ext_resource type="Script" uid="uid://wnlxdw32ywik" path="res://toggle_children_animation.gd" id="1_eutry"]
+[ext_resource type="PackedScene" uid="uid://dw5x355ddaccy" path="res://no_rig/scenes/81_mannequins.tscn" id="1_m5lyo"]
 
 [node name="729Mannequins" type="Node3D" unique_id=168451799]
+script = ExtResource("1_eutry")
 
 [node name="81Mannequins" parent="." unique_id=588549458 instance=ExtResource("1_m5lyo")]
 

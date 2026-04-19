@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://y3mobrage083"
-path.s3tc="res://.godot/imported/blocky_mannequin.png-171b866af30c5ddea0d6771cf20efd5c.s3tc.ctex"
+uid="uid://caehm56kj6mdd"
+path.s3tc="res://.godot/imported/character_T_EyesTexture.png-016c4740f2c14cbe8e8213f06bf50d08.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "37837aa971c2a42b55f8dcbbc640e294"
+}
 
 [deps]
 
-source_file="res://assets/blocky_mannequin.png"
-dest_files=["res://.godot/imported/blocky_mannequin.png-171b866af30c5ddea0d6771cf20efd5c.s3tc.ctex"]
+source_file="res://rig/assets/character_T_EyesTexture.png"
+dest_files=["res://.godot/imported/character_T_EyesTexture.png-016c4740f2c14cbe8e8213f06bf50d08.s3tc.ctex"]
 
 [params]
 

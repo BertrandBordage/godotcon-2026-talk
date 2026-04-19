@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://s1jpaen3csjs"]
+
+[ext_resource type="Script" uid="uid://wnlxdw32ywik" path="res://toggle_children_animation.gd" id="1_8nb6d"]
+[ext_resource type="PackedScene" uid="uid://ueeh66iyilmo" path="res://rig/components/character.tscn" id="1_x0fvh"]
+
+[node name="9Characters" type="Node3D" unique_id=1814028122]
+script = ExtResource("1_8nb6d")
+
+[node name="character" parent="." unique_id=973343115 instance=ExtResource("1_x0fvh")]
+
+[node name="character2" parent="." unique_id=1259173969 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+
+[node name="character3" parent="." unique_id=292562847 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
+
+[node name="character4" parent="." unique_id=138237611 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -2)
+
+[node name="character6" parent="." unique_id=1069398846 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -2)
+
+[node name="character7" parent="." unique_id=1244740961 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2)
+
+[node name="character8" parent="." unique_id=2109755781 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+
+[node name="character9" parent="." unique_id=1364471682 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 2)
+
+[node name="character5" parent="." unique_id=1776268426 instance=ExtResource("1_x0fvh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2)
