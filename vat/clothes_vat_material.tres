@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ekmhkd2bg34o"]
+
+[ext_resource type="Shader" uid="uid://cvpunthy5ay4n" path="res://vat/vat.gdshader" id="1_ihm54"]
+[ext_resource type="Texture2D" uid="uid://bg8bnd4i5utes" path="res://rig/assets/character_Green_Leaves.png" id="2_bdw2r"]
+[ext_resource type="Texture2D" uid="uid://8fpl53tjpiix" path="res://vat/assets/Clothes_vat/Clothes_vat.exr" id="3_4avtw"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ihm54")
+shader_parameter/vertex_animation_texture = ExtResource("3_4avtw")
+shader_parameter/min_values = Vector3(-0.1, -0.1, -0.1)
+shader_parameter/max_values = Vector3(0.1, 0.1, 0.1)
+shader_parameter/pause_frame = 0
+shader_parameter/speed = 24.0
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/albedo_texture = ExtResource("2_bdw2r")
+shader_parameter/metallic = 0.0
+shader_parameter/metallic_texture_channel = Color(1, 0, 0, 0)
+shader_parameter/specular = 0.5
+shader_parameter/roughness = 1.0
+shader_parameter/roughness_texture_channel = Color(1, 0, 0, 0)
+shader_parameter/normal_scale = 1.0

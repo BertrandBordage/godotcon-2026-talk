@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dolqtrbb4we6"]
+
+[ext_resource type="Shader" uid="uid://cvpunthy5ay4n" path="res://vat/vat.gdshader" id="1_nvvjb"]
+[ext_resource type="Texture2D" uid="uid://ccfl5s8087yjn" path="res://rig/assets/character_Skintone_2.png" id="2_40t25"]
+[ext_resource type="Texture2D" uid="uid://d16cxdtehb1k0" path="res://vat/assets/Body_vat/Body.exr" id="3_tpmjb"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_nvvjb")
+shader_parameter/vertex_animation_texture = ExtResource("3_tpmjb")
+shader_parameter/min_values = Vector3(-0.3, -0.7, -0.3)
+shader_parameter/max_values = Vector3(0.1, 0.6, 0.3)
+shader_parameter/pause_frame = 0
+shader_parameter/speed = 24.0
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/albedo_texture = ExtResource("2_40t25")
+shader_parameter/metallic = 0.0
+shader_parameter/metallic_texture_channel = Color(1, 0, 0, 0)
+shader_parameter/specular = 0.5
+shader_parameter/roughness = 1.0
+shader_parameter/roughness_texture_channel = Color(1, 0, 0, 0)
+shader_parameter/normal_scale = 1.0

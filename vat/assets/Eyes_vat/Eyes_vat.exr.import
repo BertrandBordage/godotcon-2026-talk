@@ -2,24 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccfl5s8087yjn"
-path.s3tc="res://.godot/imported/character_Skintone_2.png-8670bf86921145c79554a7192f0d5a13.s3tc.ctex"
+uid="uid://deuqih6ug8eq6"
+path="res://.godot/imported/Eyes_vat.exr-118b7bfb66ab7e7417b365fdbb68da5c.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
-}
-generator_parameters={
-"md5": "eab8c87dde75e6cd7efc874a5ca92911"
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://rig/assets/character_Skintone_2.png"
-dest_files=["res://.godot/imported/character_Skintone_2.png-8670bf86921145c79554a7192f0d5a13.s3tc.ctex"]
+source_file="res://vat/assets/Eyes_vat/Eyes_vat.exr"
+dest_files=["res://.godot/imported/Eyes_vat.exr-118b7bfb66ab7e7417b365fdbb68da5c.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -27,7 +23,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -35,7 +31,7 @@ process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2
 process/channel_remap/alpha=3
-process/fix_alpha_border=false
+process/fix_alpha_border=true
 process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false

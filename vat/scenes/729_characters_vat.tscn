@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dan4fod4df168"]
+
+[ext_resource type="PackedScene" uid="uid://bqigplnpapw1" path="res://vat/scenes/81_characters_vat.tscn" id="1_hock3"]
+[ext_resource type="Script" uid="uid://wnlxdw32ywik" path="res://toggle_children_animation.gd" id="1_rqma0"]
+
+[node name="729CharactersVat" type="Node3D" unique_id=1244083761]
+script = ExtResource("1_rqma0")
+
+[node name="81CharactersVat" parent="." unique_id=832240630 instance=ExtResource("1_hock3")]
+
+[node name="81CharactersVat2" parent="." unique_id=1603132616 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 0)
+
+[node name="81CharactersVat3" parent="." unique_id=1208308002 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 0, 0)
+
+[node name="81CharactersVat4" parent="." unique_id=1249564322 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 18)
+
+[node name="81CharactersVat5" parent="." unique_id=1034677684 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, 18)
+
+[node name="81CharactersVat6" parent="." unique_id=6133185 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 0, 18)
+
+[node name="81CharactersVat7" parent="." unique_id=1505563954 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18)
+
+[node name="81CharactersVat8" parent="." unique_id=1190537392 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 0, -18)
+
+[node name="81CharactersVat9" parent="." unique_id=950197260 instance=ExtResource("1_hock3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 0, -18)

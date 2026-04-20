@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://i0gfoi1w726c"]
+
+[ext_resource type="Shader" uid="uid://cvpunthy5ay4n" path="res://vat/vat.gdshader" id="1_txotj"]
+[ext_resource type="Texture2D" uid="uid://caehm56kj6mdd" path="res://rig/assets/character_T_EyesTexture.png" id="2_6fnjc"]
+[ext_resource type="Texture2D" uid="uid://deuqih6ug8eq6" path="res://vat/assets/Eyes_vat/Eyes_vat.exr" id="3_k55dd"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_txotj")
+shader_parameter/vertex_animation_texture = ExtResource("3_k55dd")
+shader_parameter/min_values = Vector3(0, -0.1, -0.1)
+shader_parameter/max_values = Vector3(0.1, 0.1, 0.1)
+shader_parameter/pause_frame = 0
+shader_parameter/speed = 24.0
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/albedo_texture = ExtResource("2_6fnjc")
+shader_parameter/metallic = 0.0
+shader_parameter/metallic_texture_channel = Color(1, 0, 0, 0)
+shader_parameter/specular = 0.5
+shader_parameter/roughness = 1.0
+shader_parameter/roughness_texture_channel = Color(1, 0, 0, 0)
+shader_parameter/normal_scale = 1.0
