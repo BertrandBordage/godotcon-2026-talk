@@ -2,7 +2,7 @@
 
 [ext_resource type="Shader" uid="uid://cvpunthy5ay4n" path="res://vat/vat.gdshader" id="1_nvvjb"]
 [ext_resource type="Texture2D" uid="uid://ccfl5s8087yjn" path="res://rig/assets/character_Skintone_2.png" id="2_40t25"]
-[ext_resource type="Texture2D" uid="uid://d16cxdtehb1k0" path="res://vat/assets/Body_vat/Body.exr" id="3_tpmjb"]
+[ext_resource type="Texture2D" uid="uid://d16cxdtehb1k0" path="res://vat/assets/Body_vat/Body_vat.exr" id="3_tpmjb"]
 
 [resource]
 render_priority = 0
